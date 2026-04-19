@@ -61,7 +61,7 @@ tls_key_path: ""
 # Logging configuration.
 log:
   format: text
-  level: warn
+  level: info
 
 # Policy (ACL) configuration.
 acl_policy_path: ""
