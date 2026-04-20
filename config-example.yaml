@@ -59,9 +59,11 @@ tls_cert_path: ""
 tls_key_path: ""
 
 # Logging configuration.
+# Using 'info' instead of 'warn' to get more visibility into connections and
+# node registrations during initial setup and experimentation.
 log:
   format: text
-  level: warn
+  level: info
 
 # Policy (ACL) configuration.
 acl_policy_path: ""
